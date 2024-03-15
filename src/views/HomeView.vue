@@ -107,6 +107,7 @@ const handleEdit = (row, index) => {
 
 //删除数据，从index的位置删除一行
 const remove = (index) => {
+  console.log(1111);
   tableData.value.splice(index, 1)
 }
 const search = () => {
